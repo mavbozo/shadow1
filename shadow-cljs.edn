@@ -1,0 +1,11 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src_cljs"]
+
+ :dependencies
+ [
+  [fulcrologic/fulcro "2.8.12"]
+  ]
+ 
+ :builds
+ {:web-app {:target :browser}}}
